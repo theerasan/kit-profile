@@ -56,7 +56,7 @@ export default function Header({ dark, onToggle }) {
 
             {/* Download CV */}
             <a
-              href="/kit-prpan-resume.pdf"
+              href="/kit-prapan-resume.pdf"
               download
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-cyan-600 hover:bg-cyan-500 text-white transition-colors shadow-sm"
             >
@@ -95,7 +95,7 @@ export default function Header({ dark, onToggle }) {
               </a>
             ))}
             <a
-              href="/kit-prpan-resume.pdf"
+              href="/kit-prapan-resume.pdf"
               download
               className="mt-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-cyan-600 hover:bg-cyan-500 text-white w-fit transition-colors"
             >

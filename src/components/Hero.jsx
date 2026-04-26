@@ -64,7 +64,7 @@ export default function Hero() {
               View Experience
             </a>
             <a
-              href="/kit-prpan-resume.pdf"
+              href="/kit-prapan-resume.pdf"
               download
               className="px-6 py-3 rounded-full border border-white/30 hover:bg-white/10 font-semibold text-sm text-white transition-colors"
             >

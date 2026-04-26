@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs">
           <p>© {new Date().getFullYear()} Prapan Wongaurwate. All rights reserved.</p>
           <a
-            href="/kit-prpan-resume.pdf"
+            href="/kit-prapan-resume.pdf"
             download
             className="inline-flex items-center gap-1.5 text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
           >
