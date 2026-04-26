@@ -56,7 +56,7 @@ export default function Header({ dark, onToggle }) {
 
             {/* Download CV */}
             <a
-              href="/kit-papan-resume.pdf"
+              href="/kit-prpan-resume.pdf"
               download
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-cyan-600 hover:bg-cyan-500 text-white transition-colors shadow-sm"
             >
