@@ -20,14 +20,14 @@ export default function Hero() {
           <p className="text-cyan-400 font-semibold text-sm tracking-widest uppercase mb-2">
             Open to Opportunities
           </p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-3">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-3 bg-gradient-to-r from-cyan-300 via-sky-200 to-teal-300 bg-clip-text text-transparent drop-shadow-[0_2px_20px_rgba(34,211,238,0.25)]">
             Prapan<br className="hidden sm:block" /> Wongaurwate
           </h1>
           <p className="text-xl sm:text-2xl font-medium text-cyan-300 mb-5">
             QA Engineer &amp; Project Manager
           </p>
           <p className="text-slate-300 max-w-xl leading-relaxed mb-7 text-sm sm:text-base">
-            5+ years crafting quality software through rigorous test design, automation, and cross-functional collaboration — from mobile apps to enterprise platforms.
+            10+ years crafting quality software through rigorous test design, automation, and cross-functional collaboration — from mobile apps to enterprise platforms.
           </p>
 
           {/* Contact chips */}
@@ -64,7 +64,7 @@ export default function Hero() {
               View Experience
             </a>
             <a
-              href="/Resume.pdf"
+              href="/kit-prpan-resume.pdf"
               download
               className="px-6 py-3 rounded-full border border-white/30 hover:bg-white/10 font-semibold text-sm text-white transition-colors"
             >

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Stats from './components/Stats'
 import About from './components/About'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
@@ -25,6 +26,7 @@ export default function App() {
       <Header dark={dark} onToggle={() => setDark(d => !d)} />
       <main>
         <Hero />
+        <Stats />
         <About />
         <Skills />
         <Experience />

@@ -1,4 +1,19 @@
+import SectionHeading, { icons } from './SectionHeading'
+
 const jobs = [
+  // {
+  //   company: 'Career Break & Continuous Learning',
+  //   location: 'Bangkok',
+  //   role: 'Self-Directed Development',
+  //   period: 'Aug 2024 – Present',
+  //   badge: 'Open to Opportunities',
+  //   highlights: [
+  //     'Took an intentional career break to recharge, travel, and invest in personal growth after 6+ years at Eatigo.',
+  //     'Stayed current with the QA industry — exploring modern test automation tooling, AI-assisted testing, and emerging quality engineering practices.',
+  //     'Built personal projects to keep skills sharp, including this portfolio site (React, Vite, Tailwind, Firebase Hosting).',
+  //     'Actively exploring new QA leadership and senior individual-contributor opportunities.',
+  //   ],
+  // },
   {
     company: 'Eatigo Co., Ltd.',
     location: 'Bangkok',
@@ -93,11 +108,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-20 bg-white dark:bg-slate-800/50 transition-colors">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-3 mb-10">
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white whitespace-nowrap">Experience</h2>
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-        </div>
+        <SectionHeading icon={icons.briefcase}>Experience</SectionHeading>
 
         <div className="relative">
           <div className="absolute left-4 sm:left-6 top-0 bottom-0 w-px bg-slate-200 dark:bg-slate-700" />
@@ -147,7 +158,14 @@ export default function Experience() {
                     /* Single-role layout */
                     <>
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-1">
-                        <h3 className="text-lg font-bold text-slate-900 dark:text-white">{job.role}</h3>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="text-lg font-bold text-slate-900 dark:text-white">{job.role}</h3>
+                          {job.badge && (
+                            <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300">
+                              {job.badge}
+                            </span>
+                          )}
+                        </div>
                         <Pill>{job.period}</Pill>
                       </div>
                       <p className="text-sm font-semibold text-slate-500 dark:text-slate-400 mb-4">

@@ -43,19 +43,20 @@ export default function Header({ dark, onToggle }) {
               className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             >
               {dark ? (
-                <svg className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 1.78a1 1 0 011.42 1.42l-.71.7a1 1 0 11-1.42-1.41l.71-.71zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.49 15.91a1 1 0 001.42-1.42l-.71-.7a1 1 0 00-1.42 1.41l.71.71zM10 17a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zM3.29 14.49a1 1 0 001.42 1.42l.71-.71a1 1 0 00-1.42-1.41l-.71.7zM3 10a1 1 0 011-1h1a1 1 0 010 2H4a1 1 0 01-1-1zM14.51 5.49a1 1 0 00-1.42 1.42l.71.7a1 1 0 001.42-1.41l-.71-.71zM10 7a3 3 0 100 6 3 3 0 000-6z" clipRule="evenodd" />
+                <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
                 </svg>
               ) : (
-                <svg className="w-5 h-5 text-slate-700" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                <svg className="w-5 h-5 text-slate-700" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                 </svg>
               )}
             </button>
 
             {/* Download CV */}
             <a
-              href="/Resume.pdf"
+              href="/kit-papan-resume.pdf"
               download
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-cyan-600 hover:bg-cyan-500 text-white transition-colors shadow-sm"
             >
@@ -94,7 +95,7 @@ export default function Header({ dark, onToggle }) {
               </a>
             ))}
             <a
-              href="/Resume.pdf"
+              href="/kit-prpan-resume.pdf"
               download
               className="mt-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-cyan-600 hover:bg-cyan-500 text-white w-fit transition-colors"
             >

@@ -1,3 +1,5 @@
+import SectionHeading, { icons } from './SectionHeading'
+
 const strengths = [
   {
     icon: (
@@ -32,16 +34,12 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-white dark:bg-slate-800/50 transition-colors">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-3 mb-10">
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white whitespace-nowrap">About Me</h2>
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-        </div>
+        <SectionHeading icon={icons.user}>About Me</SectionHeading>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-lg mb-4">
-              I'm a Software Quality Assurance engineer with over <strong className="text-slate-800 dark:text-white">5 years of experience</strong> delivering high-quality products across Android, iOS, Web, and Desktop platforms.
+              I'm a Software Quality Assurance engineer with over <strong className="text-slate-800 dark:text-white">10 years of experience</strong> delivering high-quality products across Android, iOS, Web, and Desktop platforms — including 8+ years focused on QA leadership and test automation.
             </p>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
               My background spans both technical QA — test design, automation frameworks, pair testing — and broader roles in product marketing and project management. I'm passionate about building innovative, user-centric products and I thrive in collaborative, fast-moving environments.

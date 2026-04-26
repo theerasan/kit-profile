@@ -1,12 +1,10 @@
+import SectionHeading, { icons } from './SectionHeading'
+
 export default function Education() {
   return (
     <section id="education" className="py-20 bg-white dark:bg-slate-800/50 transition-colors">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-3 mb-10">
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white whitespace-nowrap">Education</h2>
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-        </div>
+        <SectionHeading icon={icons.cap}>Education</SectionHeading>
 
         <div className="flex flex-col sm:flex-row items-start gap-6 p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm">
           <div className="shrink-0 w-14 h-14 rounded-2xl bg-cyan-50 dark:bg-cyan-900/40 flex items-center justify-center">

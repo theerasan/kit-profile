@@ -1,3 +1,5 @@
+import SectionHeading, { icons } from './SectionHeading'
+
 const projects = [
   {
     name: 'eatigo Mobile Application',
@@ -77,11 +79,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 bg-slate-50 dark:bg-slate-900 transition-colors">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-3 mb-10">
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white whitespace-nowrap">Projects</h2>
-          <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-        </div>
+        <SectionHeading icon={icons.folder}>Projects</SectionHeading>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map(({ name, company, tag, tagColor, desc }) => (
