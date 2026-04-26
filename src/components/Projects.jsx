@@ -1,5 +1,33 @@
 const projects = [
   {
+    name: 'eatigo Mobile Application',
+    company: 'Eatigo Co., Ltd.',
+    tag: 'Android · iOS · Web',
+    tagColor: 'cyan',
+    desc: 'Restaurant reservation platform offering time-based discounts of up to 50% at thousands of venues. Free for users to book tables via app or website — no prepayments or coupons — to dine at restaurants, hotels, and cafés during off-peak hours.',
+  },
+  {
+    name: 'eatigo eMerchant Web',
+    company: 'Eatigo Co., Ltd.',
+    tag: 'Partner Platform',
+    tagColor: 'sky',
+    desc: 'Restaurant data management platform that allows partners to configure their menus and prices.',
+  },
+  {
+    name: 'eatigo Web Admin',
+    company: 'Eatigo Co., Ltd.',
+    tag: 'Internal Tools',
+    tagColor: 'indigo',
+    desc: 'Administrator platform used to configure and manage eatigo systems across the product suite.',
+  },
+  {
+    name: 'eatigo eBilling',
+    company: 'Eatigo Co., Ltd.',
+    tag: 'FinTech / Billing',
+    tagColor: 'teal',
+    desc: 'Billing management platform used to manage billing systems for eatigo\'s partners.',
+  },
+  {
     name: 'Smart Workers Smart Money',
     company: 'AMPOS Solution Co., Ltd.',
     tag: 'EdTech / Mobile',
